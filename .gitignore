@@ -5,3 +5,10 @@ cypress/screenshots/
 irctc-captcha-solver/__pycache__
 cypress/downloads/"cypress.env.json" 
 cypress.env.json
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

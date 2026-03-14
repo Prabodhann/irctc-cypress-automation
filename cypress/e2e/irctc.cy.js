@@ -21,10 +21,8 @@ describe('IRCTC TATKAL BOOKING', () => {
     cy.clearCookies()
     cy.clearLocalStorage()
     cy.viewport(1478, 1056)
-    cy.visit('https://www.irctc.co.in/nget/train-search', {
-      failOnStatusCode: false,
-      timeout: 90000
-    })
+    // Use puppeteer to navigate instead of Cypress to bypass proxy detection
+    cy.puppeteer('goto', 'https://www.irctc.co.in/nget/train-search')
 
 
     cy.task("log", `Website Fetching completed.........`)

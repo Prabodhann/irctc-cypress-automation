@@ -1,13 +1,13 @@
 {
   "TRAIN_NO": "13185",
   "TRAIN_COACH": "3A",
-  "TRAVEL_DATE": "24/08/2024",
+  "TRAVEL_DATE": "24/03/2026",
   "SOURCE_STATION": "SDAH",
   "BOARDING_STATION": null,
   "DESTINATION_STATION": "DBG",
-  "TATKAL": true,
+  "TATKAL": false,
   "PREMIUM_TATKAL": false,
-  "UPI_ID_CONFIG": "",
+  "UPI_ID_CONFIG": "8055555779@jupieraxis",
   "PASSENGER_DETAILS": [
     {
       "NAME": "Shivam Pandey",
